@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>vol02 - hidden cams</title>
+		<link rel="stylesheet" href="styles.css">
+			
+		
+		<!-- DÉBUT STYLE -->	
+		<style type="text/css">
+
+			
+  			@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,800;1,800&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,600&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+			/*COMPUTER*/
+			@media only screen and (min-width: 800px) {
+			body {
+				background-image: url("/images/texture02.jpg");
+				background-repeat: repeat;
+				background-size: 50%;
+				background-position: center;
+				overflow-x: hidden;
+				}
+			
+
+			h1 {
+				color: #30ff00;
+				text-align: right;
+				font-family: 'Urbanist', sans-serif;
+				font-size: 700%;
+				margin-top: 3vh;
+				overflow: hidden;
+				white-space: nowrap;
+				}
+			
+			h2 {
+				color: white;
+				-webkit-filter :opacity(.7) drop-shadow(2px 2px grey);
+				filter :opacity(.5) drop-shadow(2px 2px grey);
+				font-family: 'Prompt', sans-serif;
+				font-size: 250%;
+				white-space: nowrap;
+  				overflow: visible;
+  				margin-left: 50%;
+  				position: absolute;
+  				top: -3%;
+  				right: 2%;
+				}
+
+			h3 {
+				color: black;
+				padding-top: 16px;
+				text-align: left;
+				padding-right: 10vw;
+				padding-left: 3vh;
+				font-family: 'Kanit', sans-serif;
+				font-size: 25px;
+				line-height: 0.9;
+				text-align: justify;
+				}
+
+			h4 {
+				padding-right: 10vw;
+				padding-left: 3vh;
+				text-align: justify;
+				font-family: 'Roboto', sans-serif;
+				font-size: 22px;
+				columns: 2;
+				}
+				}
+
+			/*SMARTPHONE*/
+			@media only screen and (min-width: 1px) and (max-width: 800px) {
+			body {
+				background-image: url("/images/texture02.jpg");
+				font-family: ;
+				background-repeat: repeat;
+				background-size: 50%;
+				background-position: center;
+				overflow-x: hidden;
+				}
+			
+
+			h1 {
+				color: #30ff00;
+				text-align: right;
+				font-family: 'Urbanist', sans-serif;
+				font-style: ;
+				font-weight: ;
+				font-size: 450%;
+				margin-top: 13vh;
+				margin-bottom: 0.1vh;
+				overflow: hidden;
+				white-space: nowrap;
+				}
+			
+			h2 {
+				color: white;
+				-webkit-filter :opacity(.7) drop-shadow(2px 2px grey);
+				filter :opacity(.5) drop-shadow(2px 2px grey);
+				font-family: 'Prompt', sans-serif;
+				font-size: 250%;
+				white-space: nowrap;
+  				overflow: visible;
+  				margin-left: 50%;
+  				position: absolute;
+  				top: 3%;
+  				right: 2%;
+				}
+
+			h3 {
+				color: black;
+				padding-top: 16px;
+				text-align: left;
+				padding-right: 10vw;
+				padding-left: 3vh;
+				font-family: 'Kanit', sans-serif;
+				font-size: 25px;
+				line-height: 0.9;
+				text-align: justify;	
+				}
+
+			h4 {
+				padding-right: 10vw;
+				padding-left: 3vh;
+				text-align: justify;
+				font-family: 'Roboto', sans-serif;
+				font-size: 22px;
+				columns: 1;
+				}
+				}
+
+			.grand-espace { margin-top: 64px;}
+
+			.photo {
+				width: 50vh;
+				height: 50vh;
+				background-image: url();
+				background-size: cover;
+				background-position: center center;
+				position: absolute;
+				top: 0%;
+				right: 0%;
+				bottom: 0%;
+				left: 0%;
+				}
+
+			.img { 
+				max-width: 100%; 
+				height: auto;
+				overflow: hidden; 
+				}
+			
+			.box {
+  				border: 5px solid darkblue;
+  				width: 500px;
+  				margin-left: 120vh;
+  				}
+
+  			.column {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 16px;
+				width: 70%;
+				}
+
+			.container-image {
+  				display: flex;
+  				position: absolute;
+				top: 10%;
+				right: 10%;
+				bottom: 10%;
+				left: 10%;
+				scale: 75%;
+				}
+
+			.container-image-02 {
+  				position: fixed;
+				top: 50%;
+				right: 0%;
+				bottom: 0%;
+				left: 45%;
+				scale: 35%;
+				}
+
+			.container-text {
+  				display: flex;
+  				position: absolute;
+				top: 43%;
+				right: 12%;
+				bottom: 10%;
+				left: 60%;
+				scale: 140%;
+				text-align: justify;
+				line-height: 1;
+				}
+
+			.image-button {
+			    display: inline-flex;
+			    background-color: transparent;
+			    border: none;
+			    scale: 65%;
+			    cursor: pointer;
+			    position: absolute;
+				top: -6%;
+				right: 100%;
+				bottom: 55%;
+				left: 1%;
+			    }
+
+			.image-container {
+			    position: fixed;
+			    bottom: 0;
+			    right: 0;
+			    margin: 20px;
+			    overflow: hidden;
+				}
+
+			.pop-up-image {
+			    width: 377px; /* Adjust the size as needed */
+			    height: 283; /* Adjust the size as needed */
+			    transform: translateY(100%);
+			    transition: transform 0.5s ease-in-out;
+				}
+
+			.image-container.show .pop-up-image {
+			    transform: translateY(0);
+				}
+
+			.delete-button {
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    background-color: red;
+			    color: white;
+			    border: none;
+			    padding: 5px;
+			    cursor: pointer;
+			    opacity: 0;
+			    transition: opacity 0.5s ease-in-out;
+				}
+
+			.image-container.show .delete-button {
+			    opacity: 1;
+				}
+
+		</style>
+		<!-- FIN STYLE -->
+		
+	</head>
+
+	<body>
+		<div class="largeur-page">
+			 <button class="image-button">
+   					<img src="/images/texture02.jpg" alt="Image">
+  				</button>
+</div>			
+	<h1>porn digger</h1>
+		<h2>volume 02</h2>
+			<h3>You know that moment when all of a sudden, like it's the most natural thing in the world a scene in an adult film that you saw years ago comes back to haunt you. The only two options you have to get reid of that brainworm is fight through it, or go find the movie.</h3>
+
+				<h4>I woke up thinking about a very specific scene, crystal clear image in my mind. I wish I could just extract it as it is and watch it again. The scene stayed with me all day long, obsessing me. I can see the two blonde Czech actors, their short blond hair. That early two thousand camera work seems unmistakable in my mind. I can picture the two Adonis walking in the middle of nowhere, probably somewhere in the middle of Europe. I feel like the only reason this movie specifically is haunting me is because it’s intimately linked to how I pictured my young years in the middle of nowhere, wearing the same washed-out coats, the same oversized jeans borrowed from an older brother. I can see them two, walking next to each other, walking until they found a barn to do their business in, but like if there’s a parental control in my mind, censoring the rest of the scene, I can’t picture what happens next. But like on loop in my mind, the two twinks keep replaying the same path over and over, exchanging lustful glimpses at each other. So, as obsessed they’re making me, the movie’s obsessing my brain, a brainworm feeding off the grey matter. The only way to get rid of it is to find the movie. Find the movie and purge it from my system. But with little information on the movie except the precious flashes I have in mind, it’s going to take a lot of investigating and patience. With my head still clouded by the sleep, I took it upon me to start investigating, and dig deep on the internet. 
+				I need to start large, with the few images I have in mind, describe it to the browser, precising that I’m looking for GAY PORN specifically.</h4>
+
+			<div class="img">
+				<img src="/images/adgif02.gif"
+				 class="img">
+			</div>
+
+				<h4> Czech twinks walking. Blond twinks barn sex. Twinks outside porn. Czech blondies vintage porn. 90’s east boys. I tried those and every possibility mixing them. I’m scrolling through an infinity of thumbnails, sifting through the endless blond guys getting railed in every position imaginable, not quite finding the ones I have in mind. Farmer boys getting milked by their friends is what I mostly see, that’s too pastoral, I want eurotrash autumn bad weather rural porn, not daisies and sunshine. Since Google isn’t giving me exactly what I want, I’ll start to dig deeper, going directly to the densest gay porn websites I know. Multiplying the tabs, I get to serous business. Ignoring all the hailing men yearning for me to watch them, I let my eyes scan the pages fast. 35 pages to look at here. I open some movies that could be the one I’m looking for. I woke up horny, now thirty minutes spent looking at naked male bodies has me very horny. I can feel the testosterone burning in my veins, I’m redder, firmer everywhere, flushing. I need to stay focused. Movie after movie, scene after scene, I have exhausted all my direct sources. I must get the big guns out. I log to the forum housing the horniest gay guys on the internet, they’ll know what I’m looking for. I leave a detailed post of the movie I have in mind, hoping somebody will recognize what I’m talking about. I know they won’t be answering right away, I leave the warmth of my bed to take a cold shower to hopefully get my libido down a bit. Making it as long as I can, I return to my computer a little short than an hour later with a delicious surprise. Like I had hoped, the horned-up gays were an infinite pool of knowledge when it came to porn. A certain platinum member named RazorCucklord responded with a name of a studio and the name of the actors. Googling them landed me precisely on the images I had in mind, a wave of relief spreading in my body. Now let’s watch it. Only, impossible to find it for free on the internet. No surprise I couldn’t find it anywhere. The hunt isn’t over, I’ll have to go to my pirate haven to find it and download it. VPN on, it’s time to go to the sketchy websites and get it over with. With the name of the studio and the actors, finding it pirated was a breeze, and ten minutes later, it was downloaded on my computer. Opening it up sent me back to my teens, seeing myself again in them. It’s as sweet as I remembered, the camera work still as bad, the twinks as generic as you could make them, the scenery just like I pictured it, rural east boys going at it somewhere in Czech Republic, I was moved, and I got off.
+			</h4>
+		</div>
+
+
+   <div class="image-container" id="image-container">
+        <img src="/images/adgif01.gif" alt="Pop-up Image" class="pop-up-image" id="pop-up-image">
+        <button class="delete-button" id="delete-button">X</button>
+    </div>
+
+
+		<script>
+    	window.onload = function() {
+    var container = document.getElementById('image-container');
+    container.classList.add('show');
+	};
+
+		document.getElementById('delete-button').addEventListener('click', function() {
+    var image = document.getElementById('pop-up-image');
+    image.parentNode.removeChild(image);
+    this.style.display = 'none'; // Hide the delete button after the image is deleted
+	});
+
+    	</script>	
+	</body>
+</html>

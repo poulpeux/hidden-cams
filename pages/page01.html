@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>vol01 - hidden cams</title>
+		<link rel="stylesheet" href="styles.css">
+			
+		
+		<!-- DÉBUT STYLE -->	
+		<style type="text/css">
+
+			
+  			@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,800;1,800&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,600&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+			/*COMPUTER*/
+			@media only screen and (min-width: 800px) {
+			body {
+				background-image: url("/images/texture02.jpg");
+				background-repeat: repeat;
+				background-size: 50%;
+				background-position: center;
+				overflow-x: hidden;
+				}
+			
+
+			h1 {
+				color: #fc00f4;
+				text-align: right;
+				font-family: 'Urbanist', sans-serif;
+				font-size: 700%;
+				margin-top: 1vh;
+				margin-bottom: 0.1vh;
+				white-space: nowrap;
+				overflow: hidden;
+				}
+			
+			h2 {
+				color: white;
+				-webkit-filter :opacity(.7) drop-shadow(2px 2px grey);
+				filter :opacity(.5) drop-shadow(2px 2px grey);
+				font-family: 'Prompt', sans-serif;
+				font-size: 250%;
+				white-space: nowrap;
+  				overflow: visible;
+  				margin-left: 50%;
+  				position: absolute;
+  				top: 11%;
+  				right: 2%;
+				}
+
+			h3 {
+				color: black;
+				padding-top: 16px;
+				text-align: left;
+				padding-right: 10vw;
+				padding-left: 3vh;
+				font-family: 'Kanit', sans-serif;
+				font-size: 25px;
+				line-height: 0.9;
+				text-align: justify;
+				}
+
+			h4 {
+				padding-right: 10vw;
+				padding-left: 3vh;
+				text-align: justify;
+				font-family: 'Roboto', sans-serif;
+				font-size: 22px;
+				columns: 2;
+				}
+				}
+
+			/*SMARTPHONE*/
+			@media only screen and (min-width: 1px) and (max-width: 800px) {
+			body {
+				background-image: url("/images/texture02.jpg");
+				font-family: ;
+				background-repeat: repeat;
+				background-size: 50%;
+				background-position: center;
+				overflow-x: hidden;
+				}
+			
+
+			h1 {
+				color: #fc00f4;
+				text-align: right;
+				font-family: 'Urbanist', sans-serif;
+				font-style: ;
+				font-weight: ;
+				font-size: 430%;
+				margin-top: 13vh;
+				margin-bottom: 0.1vh;
+				overflow: hidden;
+				white-space: nowrap;
+				}
+			
+			h2 {
+				color: white;
+				-webkit-filter :opacity(.7) drop-shadow(2px 2px grey);
+				filter :opacity(.5) drop-shadow(2px 2px grey);
+				font-family: 'Prompt', sans-serif;
+				font-size: 250%;
+				white-space: nowrap;
+  				overflow: visible;
+  				margin-left: 50%;
+  				position: absolute;
+  				top: 3%;
+  				right: 2%;
+				}
+
+			h3 {
+				color: black;
+				padding-top: 16px;
+				text-align: left;
+				padding-right: 10vw;
+				padding-left: 3vh;
+				font-family: 'Kanit', sans-serif;
+				font-size: 25px;
+				line-height: 0.9;
+				text-align: justify;	
+				}
+
+			h4 {
+				padding-right: 10vw;
+				padding-left: 3vh;
+				text-align: justify;
+				font-family: 'Roboto', sans-serif;
+				font-size: 22px;
+				columns: 1;
+				}
+				}
+
+			.grand-espace { margin-top: 64px;}
+
+			.photo {
+				width: 50vh;
+				height: 50vh;
+				background-image: url();
+				background-size: cover;
+				background-position: center center;
+				position: absolute;
+				top: 0%;
+				right: 0%;
+				bottom: 0%;
+				left: 0%;
+				}
+			
+			.img { 
+				max-width: 100%; 
+				height: auto;
+				overflow: hidden; 
+				}
+
+			.box {
+  				border: 5px solid darkblue;
+  				width: 500px;
+  				margin-left: 120vh;
+  				}
+
+  			.column {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 16px;
+				width: 70%;
+				}
+
+			.container-image {
+  				display: flex;
+  				position: absolute;
+				top: 10%;
+				right: 10%;
+				bottom: 10%;
+				left: 10%;
+				scale: 75%;
+				}
+
+			.container-image-02 {
+  				position: fixed;
+				top: 50%;
+				right: 0%;
+				bottom: 0%;
+				left: 45%;
+				scale: 35%;
+				}
+
+			.container-text {
+  				display: flex;
+  				position: absolute;
+				top: 43%;
+				right: 12%;
+				bottom: 10%;
+				left: 60%;
+				scale: 140%;
+				text-align: justify;
+				line-height: 1;
+				}
+
+			.image-button {
+			    display: inline-flex;
+			    background-color: transparent;
+			    border: none;
+		    	scale: 65%;
+			    cursor: pointer;
+			    position: absolute;
+				top: -6%;
+				right: 100%;
+				bottom: 55%;
+				left: 1%;
+				}
+
+			.image-container {
+			    position: fixed;
+			    bottom: 0;
+			    right: 0;
+			    margin: 20px;
+			    overflow: hidden;
+				}
+
+			.pop-up-image {
+			    width: 377px; /* Adjust the size as needed */
+			    height: 283; /* Adjust the size as needed */
+			    transform: translateY(100%);
+			    transition: transform 0.5s ease-in-out;
+				}
+
+			.image-container.show .pop-up-image {
+			    transform: translateY(0);
+				}
+
+			.delete-button {
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    background-color: red;
+			    color: white;
+			    border: none;
+			    padding: 5px;
+			    cursor: pointer;
+			    opacity: 0;
+			    transition: opacity 0.5s ease-in-out;
+				}
+
+			.image-container.show .delete-button {
+			    opacity: 1;
+				}
+
+
+		</style>
+		<!-- FIN STYLE -->
+		
+	</head>
+
+	<body>
+		<div class="largeur-page">
+			 <button class="image-button">
+   					<img src="/images/home.png" alt="Image">
+  				</button>
+</div>  			
+	<h1>roulette rush</h1>
+		<h2>volume 01</h2>
+			<h3>I just love connecting and exploring all of these random men online, nothing really gets me off the way they do. I love the anonymity, the mystery, imagining who they are.</h3>
+				<h4>Time to turn the computer on. The machine is softly purring as it flashes the launching screen. My heart always accelerates in anticipation, soft perspiration on my forehead. After sitting in the uncomfortable desk chair, I log in the computer. The poor thing is getting so old, it’s so slow I can’t sit still, I have to stand up, get myself a glass of water and some tissue paper. The house is still, silent. I get back to the computer that finally seems like it’s fully on and sit in front of it. What do I do now, what do I start with I wonder. I know this machine so well, my eyes glide over the screen, knowing full well where all icons are. I open the browser, hit the keys to open the private navigation tab, executing myself like some sort of ritual. To whom am I going to do my sacrifice today? My hands float above the keyboard, hesitating. I’m in the mood for interaction. I type in my favorite website to be randomly connected to strangers via our webcams. My heart is racing, I love that excitement I get each time I log in. I love the surprise, the chase, the browse. I set up the camera, I look at my reflection in the pixelated mirror of my screen. The lighting made me look tired, dark circles drawing under my eyes and my hair falls flat on my head.  I won’t show my face today, so lower the angle right on my chest. I’m gonna have to take my t-shirt off, to be as desirable as possible. I end up entirely naked on the chair, the fabric feeling particularly unpleasant on my skin. The lack of light made me look gray on the screen, but the shadows that made my eyes look deep and black made my small chest big and toned. My skin was catching the light in all the right places, a nice portrait of me, from my chin down to my navel, my happy trail leading to the emptiness of the bottom of the screen. Satisfied with the angle, the light, and the overall look, I started the roulette, impatient to see who I was going to see on the other side of the screen. A short load later, a pixel soup of flesh flashed on the screen, in a rectangle above the one that captured my image.  The blurred mess started to make sense, slowly showing the distended belly of an old man. I don’t know what I’m looking for, but this clearly wasn’t it. So, I skipped the guy, waiting to be connected to the next one. I look hot in the viewport, puffing my chest while it’s loading. New guy connected. A forty-something years old guy with salt and pepper hair looks at me for a couple of seconds then skips. I love it when they look like they could be your accountant or your bus driver, with their wedding band still on their finger. I love it when they’re pervert that come here every day, showing nothing but their faces and their eyes full of lust, grinning at the young body I offer them, like a bone to hungry dogs, practically salivating. The next screen is pointed at a ceiling lit by a yellow light. Nothing is happening, until the compressed high-pitched sound of panting and moaning came through the speakers. Obviously, I skip. Close-up on a tiny wrinkled brownish penis, topped by a flapping belly, sprinkled by scattered discolored pubes. I don’t find anything excited, but apparently, this is the most popular type of encounter you are to make on these types of websites: close-ups of esthetically displeasing penises.</h4> 
+
+			<div class="img">
+				<img src="/images/adgif02.gif"
+				 class="img">
+			</div>
+
+
+					<h4>I skip to a guy in his shower, sitting on what appears to be the biggest black dildo he could find. I stop to watch for a minute. He’s playing with himself while going up and down on it. He asks me to give him orders, to treat him like a slut. I can’t see his face. The lightly spotted skin on his chest and the way his arms fell suggest that he is in his forties. I’m not very fond of talking, so I leave him and maybe someone will be delighted to give him the orders he deserves. The next man is lying in his bed in front of his laptop and starts asking me questions. He is still wearing his t-shirt, I’m not ready to spend time talking to him until he reveals his body to me. I like to do that sometimes. Lure them, charm them into removing everything they’re wearing, until they’re butt naked, and then, satisfied by the view, I kiss them goodbye and skip. With this one, nothing suggests that he’d be to my taste naked, so I simply leave him alone in his bed. Another close-up on a dick, distasteful. The following one is in his car, showing his bearded face, greeting me with a beautiful smile. He looks like he’s fully dressed, but his right hand is clearly stroking his cock. He keeps smiling at me, murmuring something I cannot hear. He pans his camera down showing a huge pink penis in all its glory, with at its base, a well-stocked bush. That immediately turns me on. I too lower my camera, revealing myself jerking of to that guy, in return turning him on even more. We stay like this for a moment, staring at each other’s cock, jerking it. Suddenly, he brings the camera back to his face, winks at me, and skips. I’m left bricked up in front of a very handsome man sitting in his couch in his underwear, apparently glad to find me in this position that appears to turn him on, as his bulge is growing by the seconds. Nonchalantly caressing his package, I can hear him grunt in his deep voice. I can’t see his face; I can only see up to his chest. He is now sliding a hand in his briefs, another one caressing his fuzzy chest. I too play with myself, relishing to see his desire heighten. The tip of his prick slowly appearing above the elastic band, a pink jewel bobbing in his hand. But he puts the junk away, pack in the briefs and skips me. He left me hornier than I was, for sure. A heartbeat later, chubby fingers around a flesh sausage welcome me, and disappeared as suddenly as they appeared. An old man showed up on my screen, shirtless, proud of his wrinkly chest, tired arms and soft belly. His lustful smile revealing yellow teeth send me over the edge to skip him. I love to make mental collections of the penis of all the men I see, it feels like candy. It satisfies me, satiates me. But the old lewd man with yellow teeth didn’t even stir my curiosity about his junk, I think that I didn’t even want him to remove his hand from his pack. Next. A hooded guy smoking. He is in his twenties, cute, my type. He looks like he wants to talk, and I’m not in the mood for talking. I’m right because he asks me to show my face. I obey. He has one hand holding his rolled cigarette, I can’t see the other one, so I picture it on his hardening dick.I show him my face, flash him a smile, moisten my lips, and put it back on my cock. He smiles, telling me I’m cute, then begins to ask me a bunch of questions. My age, where I’m from, my body count, if I want to suck his cock. He swears it’s big. I tell him that like Thomas the Apostle, I only believe what I can see. He smiles, stands up and leaves the frame. Now it’s just me in front of a white wall. The camera moves, and I hear noise. I love these high pitch noises that always come through, you never know what they are. Are they real, are they deformed noises from the real world, unspoken words? And they echo endlessly, travelling between our two computers until they become so high, they disappear. Suddenly, he comes back. No hoodie, no fag. He is standing naked, fully erect. He has a smooth skin, dark in the low light. Not much hair on his body, except for the happy trail leading to his massive bush at the base of his rather big penis, standing straight and proud. Cupping his hairy balls in the palm of his hand, he asks me if now, I’m willing to take that big shaft in my mouth. I start to drool on myself, telling him that he’s making my mouth water. Long drips of saliva falling on my stomach, slowly flowing down in my pubes, falling on my dick. I tell him how much I want his cock, how much I want him to face fuck me, that I want to eat it down to the balls. He is jerking off hard now, one hand on his uncut cock, the other on his ass. We keep at it for a moment, exchanging horny chatter. I don’t even want to suck his cock that much, but to see him so horny definitely turns me on more than anything. After a few minutes, I feel like we’ve exhausted each other’s energy, the excitement goes down a little bit. We’re getting bored of each other. And that’s normal, we’re on the fast food of camera show. Fast paced, single-use, crap cam sex. He leaves the frame once again, and as if time was going backwards, comes back fully dressed, hoodie back on his head. And with nothing more than a wink, he leaves me. I need a break, I’m sweaty, I stink, my thing hurt a bit, I’m covered in spit and precum. I take five.</h4>
+			</h4>
+		
+
+
+   <div class="image-container" id="image-container">
+        <img src="/images/adgif01.gif" alt="Pop-up Image" class="pop-up-image" id="pop-up-image">
+        <button class="delete-button" id="delete-button">X</button>
+    </div>
+
+
+    <script>
+    	window.onload = function() {
+    var container = document.getElementById('image-container');
+    container.classList.add('show');
+	};
+
+		document.getElementById('delete-button').addEventListener('click', function() {
+    var image = document.getElementById('pop-up-image');
+    image.parentNode.removeChild(image);
+    this.style.display = 'none'; // Hide the delete button after the image is deleted
+	});
+    </script>
+		
+	</body>
+</html>

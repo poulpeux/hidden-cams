@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>vol03 - hidden cams</title>
+		<link rel="stylesheet" href="styles.css">
+			
+		
+		<!-- DÉBUT STYLE -->	
+		<style type="text/css">
+
+			
+  			@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,800;1,800&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,600&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+  			@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+			/*COMPUTER*/
+			@media only screen and (min-width: 800px) {
+			body {
+				background-image: url("/images/texture02.jpg");
+				background-repeat: repeat;
+				background-size: 50%;
+				background-position: center;
+				overflow-x: hidden;
+				}
+			
+			h1 {
+				color: #009aff;
+				text-align: right;
+				font-family: 'Urbanist', sans-serif;
+				font-style: ;
+				font-weight: ;
+				font-size: 700%;
+				margin-top: 3vh;
+				overflow: hidden;
+				white-space: nowrap;
+				}
+			
+			h2 {
+				color: white;
+				-webkit-filter :opacity(.7) drop-shadow(2px 2px grey);
+				filter :opacity(.5) drop-shadow(2px 2px grey);
+				font-family: 'Prompt', sans-serif;
+				font-size: 250%;
+				white-space: nowrap;
+  				overflow: visible;
+  				margin-left: 50%;
+  				position: absolute;
+  				top: -3%;
+  				right: 2%;
+				}
+
+			h3 {
+				color: black;
+				padding-top: 16px;
+				text-align: left;
+				padding-right: 10vw;
+				padding-left: 3vh;
+				font-family: 'Kanit', sans-serif;
+				font-size: 25px;
+				line-height: 0.9;
+				text-align: justify;
+				}
+
+			h4 {
+				padding-right: 10vw;
+				padding-left: 3vh;
+				text-align: justify;
+				font-family: 'Roboto', sans-serif;
+				font-size: 22px;
+				columns: 2;
+				}
+				}
+
+			/*SMARTPHONE*/
+			@media only screen and (min-width: 1px) and (max-width: 900px) {
+			body {
+				background-image: url("/images/texture02.jpg");
+				font-family: ;
+				background-repeat: repeat;
+				background-size: 50%;
+				background-position: center;
+				overflow-x: hidden;
+				}
+			
+
+			h1 {
+				color: #009aff;
+				text-align: right;
+				font-family: 'Urbanist', sans-serif;
+				font-style: ;
+				font-weight: ;
+				font-size: 410%;
+				margin-top: 13vh;
+				margin-bottom: 0.1vh;
+				white-space: nowrap;
+				overflow: hidden;
+				}
+			
+			h2 {
+				color: white;
+				-webkit-filter :opacity(.7) drop-shadow(2px 2px grey);
+				filter :opacity(.5) drop-shadow(2px 2px grey);
+				font-family: 'Prompt', sans-serif;
+				font-size: 250%;
+				white-space: nowrap;
+  				overflow: visible;
+  				margin-left: 50%;
+  				position: absolute;
+  				top: 3%;
+  				right: 2%;
+				}
+
+			h3 {
+				color: black;
+				padding-top: 16px;
+				text-align: left;
+				font-family: 'Kanit', sans-serif;
+				font-size: 25px;
+				line-height: 0.9;
+				text-align: justify;
+				padding-right: 10vw;
+				padding-left: 3vh;	
+				}
+
+			h4 {
+				padding-right: 10vw;
+				padding-left: 3vh;
+				text-align: justify;
+				font-family: 'Roboto', sans-serif;
+				font-size: 22px;
+				columns: 1;
+				}
+				}
+
+			.grand-espace { margin-top: 64px;}
+
+			.photo {
+				width: 50vh;
+				height: 50vh;
+				background-image: url();
+				background-size: cover;
+				background-position: center center;
+				position: absolute;
+				top: 0%;
+				right: 0%;
+				bottom: 0%;
+				left: 0%;
+				}
+
+			.img { 
+				max-width: 100%; 
+				height: auto;
+				overflow: hidden; 
+				}
+
+			.box {
+  				border: 5px solid darkblue;
+  				width: 500px;
+  				margin-left: 120vh;
+  				}
+
+  			.column {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 16px;
+				width: 70%;
+				}
+
+			.container-image {
+  				display: flex;
+  				position: absolute;
+				top: 10%;
+				right: 10%;
+				bottom: 10%;
+				left: 10%;
+				scale: 75%;
+				}
+
+			.container-image-02 {
+  				position: fixed;
+				top: 50%;
+				right: 0%;
+				bottom: 0%;
+				left: 45%;
+				scale: 35%;
+				}
+
+			.container-text {
+  				display: flex;
+  				position: absolute;
+				top: 43%;
+				right: 12%;
+				bottom: 10%;
+				left: 60%;
+				scale: 140%;
+				text-align: justify;
+				line-height: 1;
+				}
+
+			.image-button {
+			    display: inline-flex;
+			    background-color: transparent;
+			    border: none;
+			    scale: 65%;
+			    cursor: pointer;
+			    position: absolute;
+				top: -6%;
+				right: 100%;
+				bottom: 55%;
+				left: 1%;
+			    }
+
+			.image-container {
+			    position: fixed;
+			    bottom: 0;
+			    right: 0;
+			    margin: 20px;
+			    overflow: hidden;
+				}
+
+			.pop-up-image {
+			    width: 377px; /* Adjust the size as needed */
+			    height: 283; /* Adjust the size as needed */
+			    transform: translateY(100%);
+			    transition: transform 0.5s ease-in-out;
+				}
+
+			.image-container.show .pop-up-image {
+			    transform: translateY(0);
+				}
+
+			.delete-button {
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    background-color: red;
+			    color: white;
+			    border: none;
+			    padding: 5px;
+			    cursor: pointer;
+			    opacity: 0;
+			    transition: opacity 0.5s ease-in-out;
+				}
+
+			.image-container.show .delete-button {
+			    opacity: 1;
+				}
+
+		</style>
+		<!-- FIN STYLE -->
+		
+	</head>
+
+	<body>
+		<div class="largeur-page">
+			 <button class="image-button">
+   					<img src="/images/texture02.jpg" alt="Image">
+  				</button>
+  			</div>
+  			
+<h1>video gaymes</h1>
+	<h2>volume 03</h2>
+		<h3>You know that moment when all of a sudden, like it's the most natural thing in the world a scene in an adult film that you saw years ago comes back to haunt you. The only two options you have to get reid of that brainworm is fight through it, or go find the movie.</h3>
+
+			<h4>Barely back from school, Jacques turns the computer on, sitting in the living room propped on a janky desk with a flimsy office chair behind it.. While the machine does its noises, slowly waking up from its deep binary slumber, he jumps in the shower. He’s pondering in the shower, about what today’s plan are going to be like online. His latest obsession is that game called Habbo Hotel, a virtual place where you own a room, and everybody’s room are connected, kind of like a gigantic virtual hotel. He made his little pixelated avatar look like a tanner version of him, with blonde hair. He’s going to log on, change his virtual outfit, buy new furniture, and then go to the club. Yes, that feels like a good plan. He exits the shower, jumps in fresh clothes, his skin barely dry. The computer is fully on, the fans exhausting a low and steady rumble, and the gray CRT screen still has that high-pitched noise when he turned it on. Internet seems to work without trouble, Jacques can play freely. 
+
+			Like he had planned, he logs in, goes to his virtual wardrobe, and picks out a new outfit. Since he’s planning on going clubbing afterwards, he’s removing his shirt, putting on the ripped jeans, a cool-kid staple here, and the very expensive high top silver sneakers that cost him a good part of his monthly phone bill. Now that he has his perfect uniform on, he can play. Looking around his virtual room that he had dubbed “My D3N” which had the ambition to be a mix between a backroom, a sex dungeon, and a nightclub, but it looked more like an abandoned strip club. He adds a lamp here, and an item that resembled handcuffs there. Now it’s time to find a club. None of his friends were online yet, he’d have to go look himself. Obviously, on a PEGI7 browser game, most edgy words and places are censored, so it does take a little bit of workaround to find a proper “n1ghtclüb”. After selecting a club with 12 people in it, Jacques’ avatar got teleported into a big dark room. It was a pretty convincing club, with flashing dancefloor tiles, electronic music, a bar and people dancing. 
+
+			He knew that place, that’s a popular spot. But he doesn’t come here only because it’s a popular place, but it also is a good virtual cruising spot. At the bottom of the room, in a dark square with couches, a couple of guys are already there, talking together. They’re dressed in a similar fashion, no shirts, jeans, and extravagant haircuts, the gay uniform on here. Jacques joins them, sliding in their conversation. They’re roleplaying a raunchy scene where one has his hands in the other one’s pants. They didn’t seem to want to include Jacques in their roleplay, but another guy is sitting alone nearby, that might be a good point to start. He sits his avatar next the other one, and starts chatting, opening with the infamous “asl”. Jacques is not into roleplaying, he wants to go straight to the point, exchanging a few words, see if he can meet them in person, and if not, they’ll do stuff through heir low quality webcams. They guy answers a few minutes later, with his age, his sex and location. Allegedly he’s 25, that gives him a good ten years over Jacques, but he didn’t mind, older men have that confidence that you can’t find in boys his age. He lives far, that means that if the guy seems interesting and interested, anything that happens will be virtual. 
+
+			They chat for a minute, exchanging banal messages about what they were doing, their little avatars mouthing their words. They ended up giving each other their Skype ID, both hoping they’ll find each other attractive. It’s like playing Russian roulette, with the risk of finding yourself in front of some 50 years old and being recorded looming above your head. Logging his username in, Jacques looks at his reflection in the screen echoed by the webcam. He adjusts his hair, but when comes the moment to call the other dude, he hears the front door open, and the lively chatter of his parents. Leaving Skype as fast as he can, he goes back to his virtual world. No cam stuff today, but his friends have finally logged on, time to fool around with them.
+ 			</h4>
+
+			<div class="img">
+				<img src="/image/adgif02.gif"
+				 class="img">
+			</div>
+
+
+   		<div class="image-container" id="image-container">
+       			<img src="/images/adgif01.gif" alt="Pop-up Image" class="pop-up-image" id="pop-up-image">
+        	<button class="delete-button" id="delete-button">X</button>
+    	</div>
+
+	    <script>
+	    	window.onload = function() {
+	    var container = document.getElementById('image-container');
+	    container.classList.add('show');
+		};
+
+			document.getElementById('delete-button').addEventListener('click', function() {
+	    var image = document.getElementById('pop-up-image');
+	    image.parentNode.removeChild(image);
+	    this.style.display = 'none'; // Hide the delete button after the image is deleted
+		});
+	    </script>
+	</body>
+</html>
